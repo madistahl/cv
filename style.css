@@ -42,6 +42,7 @@ ol {
 
 a {
     color: black;
+    word-wrap: break-word;
 }
 
 .education, .experience, .pubs, .presentations, .awards, .leadership {
@@ -52,6 +53,7 @@ a {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     width: 100%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .section-title {
